@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url('img/background.png');
+  background-size: cover;
+  background-attachment: fixed;
+
+  overflow: hidden;
+}
+header {
+  width: 100%;
+  height: 700px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.leftside {
+  width: 95%;
+  height: 700px;
+}
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+
+}
+.top-header button {
+  width: 100px;
+  height: 40px;
+  
+  background: transparent;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  outline: none;
+  
+
+  color: white;
+  cursor: pointer;
+}
+.logo {
+  width: 70%;
+  cursor: pointer;
+}
+.logo img {
+  width: 100px;
+}
+
+.rightside {
+  width: 5%;
+  height: 700px;
+
+  background: linear-gradient(#00545d, #000729);
+
+  
+  padding-top: 100px;
+}
+.main-header {
+  width: 100%;
+  height: 400px;
+
+  margin-top: 90px;
+
+  
+
+  padding: 80px;
+}
+span {
+  font-family: sans-serif;
+}
+.first-text {
+  font-size: 15px;
+  color: white;
+}
+.second-text {
+  font-size: 60px;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: bold;
+}
+.third-text {
+  font-size: 60px;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: bold;
+}
+.main-header button {
+  margin-top: 40px;
+
+  width: 100px;
+  height: 40px;
+  
+  background: transparent;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  outline: none;
+  
+
+  color: white;
+  cursor: pointer;
+}
+
+
+/* links */
+.menu {
+  cursor: pointer;
+  margin: auto;
+  width: 25px;
+  height: 25px;
+  background-image: url('img/menu.png');
+  background-size: cover;
+}
+.facebook {
+  cursor: pointer;
+  margin: 15px auto;
+  margin-top: 260px;
+  width: 30px;
+  height: 30px;
+  background-image: url('img/fb.png');
+  background-size: cover;
+}
+.inst {
+  cursor: pointer;
+  margin: 15px auto;
+  width: 30px;
+  height: 30px;
+  background-image: url('img/ig.png');
+  background-size: cover;
+}
+.twit {
+  cursor: pointer;
+  margin: 15px auto;
+  width: 30px;  
+  height: 30px;
+  background-image: url('img/tw.png');
+  background-size: cover;
+}
+
+
+
+/* bubble */
+
+.bubble {
+  transition: opacity 1s;
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  opacity: 1;
+
+  width: 50px;
+  height: 50px;
+
+  background-image: url('img/bubble.png');
+  background-size: contain;
+  
+}
+
+.hideBubble {
+  transition: 2s ease all;
+  display: none;
+}
